@@ -1,4 +1,4 @@
-### voting_system
+# voting_system
 
 ## `Introduction
 This is an online voting system project built with PHP. The project allows users to vote for their favorite candidates and view the results of the voting process. The system is easy to use and can be customized to fit your specific requirements.
