@@ -17,7 +17,6 @@
             justify-content: center;
             width: 100%;
             height: 100vh;
-            overflow: hidden;
             background-image: url('https://assets.telegraphindia.com/telegraph/2022/Jan/1641405686_election.jpg');
             background-repeat: no-repeat;
             background-size: cover;

@@ -50,15 +50,9 @@
             <div class="col-md-4">
                 <label for="pet" class="form-label">Enter your Pet Name</label>
                 <input type="text" class="form-control" id="pet" name="pet" required>
-            </div>
-
-
-                    
+            </div>  
                 <input class="btn btn-primary" type="submit" value="Find">
-            
-
                 <input class="btn btn-primary" type="reset" value="Clear">
-           
         </form>
 
 
