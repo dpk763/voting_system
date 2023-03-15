@@ -32,6 +32,7 @@ if (!isset($_SESSION['uname'])) {
   <thead>
     <tr>
       <th scope="col">#</th>
+      <th scope="col">id</th>
       <th scope="col">Symbol</th>
       <th scope="col">Name</th>
       <th scope="col">Gender</th>
@@ -56,6 +57,7 @@ if (!isset($_SESSION['uname'])) {
             echo "<tr>".
 
             "<td>" . $id. "</td>".
+            "<td>" . $row["id"]. "</td>".
             "<td>" . $row["symbol"]. "</td>".
             " <td>" . $row["cname"]. "</td>".
             "<td>".$row["gender"]."</td>".

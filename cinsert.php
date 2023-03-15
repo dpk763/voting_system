@@ -112,7 +112,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   </div>
   <div class="mb-3 my-4">
     <label for="age" class="form-label">Age</label>
-    <input type="text" class="form-control" id="age" name="age" aria-describedby="emailHelp">
+    <input type="number" class="form-control" id="age" name="age" min="18" aria-describedby="emailHelp">
     
   </div>
   <div class="mb-3 my-4">

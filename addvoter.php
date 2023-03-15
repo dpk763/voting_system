@@ -28,6 +28,7 @@ if (!isset($_SESSION['uname'])) {
   <thead>
     <tr>
       <th scope="col">#</th>
+      <th scope="col">Voter Id</th>
       <th scope="col">Name</th>
       <th scope="col">Gender</th>
       <th scope="col">Age</th>
@@ -52,6 +53,7 @@ if (!isset($_SESSION['uname'])) {
             echo "<tr>".
 
             "<td>" . $id. "</td>".
+            "<td>" . $row["id"]. "</td>".
             " <td>" . $row["vname"]. "</td>".
             "<td>".$row["gender"]."</td>".
             "<td>".$row["age"]."</td>".
